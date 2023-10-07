@@ -1,7 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Post
 from django.utils import timezone
 from .forms import PostForm
+
 
 # Create your views here.
 
